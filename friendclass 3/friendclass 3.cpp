@@ -18,3 +18,8 @@ public:
 	}
 	friend void manusia:: showNilaiPelajar(pelajar& x);
 };
+
+void manusia::showNilaiPelajar(pelajar& x) {
+	cout << "Nialai Pelajar: " << x.nilai;
+}
+
